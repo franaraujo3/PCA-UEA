@@ -2,7 +2,7 @@
 int main(){
 	int i, num, sum=0;
 	
-	for(i=0; i < 5 ;i++){
+	for(i=0; i < 50 ;i++){
 		printf("Insira um numero: ");
 		scanf("%d", &num);
 		if(num % 2 != 0){	
