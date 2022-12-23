@@ -43,7 +43,7 @@ int main() {
 		min_media = media;
 	}
 	printf("\nDeseja inserir as notas de outro aluno? 1 -> sim / 0 -> nao: ");
-	scanf("%1", &op);
+	scanf("%d", &op);
 	
    	
    }while(op == 1);
