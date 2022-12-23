@@ -3,7 +3,7 @@
 int main() {
    float n1, n2, n3, media, max_n1, min_n1, max_n2, min_n2, max_n3, min_n3, max_media, min_media;
    int control;
-   char op = 'S';
+   int op = 1;
    do{
    	printf("Insira a nota do exercicio 1: ");
    	scanf("%f", &n1);
@@ -42,11 +42,11 @@ int main() {
 	}else if(media < min_media){
 		min_media = media;
 	}
-	printf("\nDeseja inserir as notas de outro aluno? [S/N]: ");
-	scanf("%c", &op);
+	printf("\nDeseja inserir as notas de outro aluno? 1 -> sim / 0 -> nao: ");
+	scanf("%1", &op);
 	
    	
-   }while(op == 'S');
+   }while(op == 1);
     printf("\nMaior media do exercicio 1: %.2f", max_n1);
    printf("Menor media do exercicio 1: %.2f", min_n1);
    printf("\nMaior media do exercicio 2: %.2f", max_n2);
