@@ -2,7 +2,7 @@
 
 int main() {
    float n1, n2, n3, media, max_n1, min_n1, max_n2, min_n2, max_n3, min_n3, max_media, min_media;
-   int control;
+   int control = 0;
    int op = 1;
    do{
    	printf("Insira a nota do exercicio 1: ");
