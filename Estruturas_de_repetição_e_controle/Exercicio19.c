@@ -6,7 +6,7 @@ int main(){
 	int i;
 	
 	for (i = 0; i < 3; i++){
-		printf("Digite um n?mero: \n");
+		printf("Digite um numero: \n");
 		scanf("%d", &num);
 		if (i <= 0){
 			min = num;
@@ -22,8 +22,8 @@ int main(){
 			
 		}
 	}
-	printf("menor n?mero: %d \n", min);
-	printf("maior n?mero: %d \n", max);
+	printf("menor numero: %d \n", min);
+	printf("maior numero: %d \n", max);
 	
 	return 0;
 }
