@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main() {
   int n, p, i, init, soma;
 
@@ -7,7 +8,7 @@ int main() {
 
   for (n = 1; n <= p; n++) {
     soma = 0;
-    for (init = 1; soma != n * n * n; init += 2) {
+    for (init = 1; soma != pow(n,3); init += 2) {
       soma = 0;
       for (i = 0; i < n; i++)
 	soma = soma + init + 2 * i;
