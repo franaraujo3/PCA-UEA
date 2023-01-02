@@ -14,7 +14,7 @@ int main(){
 		temp_t = temp_t + 50;
 	}
 	temp_hr = (temp_t / 3600);
-    temp_min = (temp_t % 3600) / 60;
+        temp_min = (temp_t % 3600) / 60;
   	temp_seg = (temp_t % 3600) % 60;
   	
 	printf("massa inicial = %.2f gramas\n", massa_i);
