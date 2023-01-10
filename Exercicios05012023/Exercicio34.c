@@ -8,7 +8,7 @@ int parto(int p, int s){
 	else if (p > 2500 && m > 7 ){
 		printf("Parto Normal");
 	}
-	else if (p > 2500 && m < 7 ){
+	else if (p > 2500 && m < 7 || m == 7 ){
 		printf("Cesariana");
 	}
 	else if (p > 1500 && p < 2000 && m == 9){
