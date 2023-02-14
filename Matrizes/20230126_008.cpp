@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define MAX 50
-void iprime(m[MAX][MAX], int l, int c){
+void iprime(int m[MAX][MAX], int l, int c){
 	for(int i = 1; i <= l; i++){
 		for(int j = 1; j <= c; j++){
 			printf("%d", m[i][j]);
