@@ -1,5 +1,5 @@
 #include <stdio.h>
-void iprime(m[5][5]){
+void iprime(int m[5][5]){
 	for(int i = 1; i <= 5; i++){
 		for(int j = 1; j <= 5; j++){
 			printf("%d", m[i][j]);
