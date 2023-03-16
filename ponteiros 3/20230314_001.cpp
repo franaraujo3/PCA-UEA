@@ -3,13 +3,13 @@
 #include <math.h>
 void mediaDesvio(float *notas, int n, float *media, float *desvio){
 	float soma = 0;
-	float somaQuad = 0;
+	float soma2 = 0;
 	for(int i = 0; i < n; i++){
 		soma += *(notas + i );
-		somaQuad += pow(*(notas + i), 2);
+		soma2 += pow(*(notas + i), 2);
 	}
 	*media = soma/n;
-	*desvio = sqrt((somaQuad/n) - pow(*media, 2));
+	*desvio = sqrt((soma2/n)2 - pow(*media, 2));
 }
 int main(){
     int n;
