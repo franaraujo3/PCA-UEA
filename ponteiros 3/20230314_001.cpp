@@ -12,7 +12,7 @@ void mediaDesvio(float *notas, int n, float *media, float *desvio){
 	*desvio = sqrt((somaQuad/n) - pow(*media, 2));
 }
 int main(){
-	 int n;
+    int n;
     printf("Insira a quantidade de alunos: ");
     scanf("%d", &n);
 
