@@ -26,8 +26,8 @@ int main(){
     float media, desvio;
     mediaDesvio(notas, n, &media, &desvio);
 
-    printf("\nmedia da tuma =  %.2f\n", media);
-    printf("\nDesvio padrao =  %.2f\n", desvio);
+    printf("\nmedia da tuma =  %.2f", media);
+    printf("\nDesvio padrao =  %.2f", desvio);
     
 	return 0;
 }
