@@ -16,8 +16,8 @@ int main() {
 	printf("\n");
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) { 
-		    printf("Elemento[%d][%d] da matriz A: ", i+1, j+1);
-            scanf("%lf", &matrizA[i][j]);
+            printf("Elemento[%d][%d] da matriz A: ", i+1, j+1);
+            scanf("%f", &matrizA[i][j]);
         }
     }
 
@@ -30,7 +30,7 @@ int main() {
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
             printf("Elemento[%d][%d] da matriz B: ", i+1, j+1);
-            scanf("%lf", &matrizB[i][j]);
+            scanf("%f", &matrizB[i][j]);
         }
     }
 
